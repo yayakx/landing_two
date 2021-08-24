@@ -1,0 +1,83 @@
+/* Global CSS */
+@import "https://fonts.googleapis.com/css?family=Inter";
+
+body {
+    font-family: 'Inter';
+    padding-bottom: 10px;
+}
+
+.section {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.font-70 {
+    font-size: 70px;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+/* Head CSS */
+#head {
+    height: 100vh;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.7)),
+        url('https://c.pxhere.com/photos/77/31/Businessman_laptop_Minimal_Office_White_Window_Windows-1618019.jpg!d');
+    background-size: cover;
+    padding-top: 25vh;
+}
+
+
+
+
+/* Option CSS */
+#option {
+    padding-bottom: 10vh;
+}
+
+#option .card-img-top {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#option .card-img-top:hover {
+    border-color: white;
+    border-width: 10px;
+    border-style: solid;
+    transition: 0.3s;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    bottom: 50px;
+    animation: rotation 15s infinite linear;
+}
+
+
+
+/* More CSS */
+
+#more {
+    height: auto;
+    background-color: rgb(231, 239, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 10vh;
+}
+
+#more .card:hover {
+    transition: 0.3s;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    bottom: 5px;    
+}
+
