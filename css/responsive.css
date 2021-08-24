@@ -3,18 +3,4 @@
         height: 100vh;
         padding-top: 5vh;
     }
-
-    #head .text-left {
-        margin-top: 5vh;
-        width: 100%;
-        margin-bottom: 50px;
-    }
-
-    #head .head-phone {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50vw;    
-        animation: rotation 15s infinite linear;
-    }
 }
